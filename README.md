@@ -381,3 +381,95 @@ Contact-
 </body>
 </html>
 Contact Form-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Form | SDG 12 Project</title>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-success" href="index.html">
+                SDG 12: Responsible Consumption & Production
+            </a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainNavbar"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link " href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link " href="blogs.html">Blogs / Articles</a></li>
+                    <li class="nav-item"><a class="nav-link " href="tips.html">Tips / Solutions</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<header class="page-hero contact-hero">
+  <div class="container">
+    <h1 class="display-5 fw-bold">Contact Form</h1>
+    <p class="author-tag mt-2">Author: Nguyen Hai Anh</p>
+    <p class="lead mt-3">Send us a message or connect with us on social media.</p>
+  </div>
+</header>
+<main class="py-5">
+  <div class="container">
+    <section class="mb-5">
+      <h2 class="section-title">Send Us a Message</h2>
+      <form class="contact-form">
+        <div class="mb-3">
+          <label class="form-label fw-bold">Your Name</label>
+          <input type="text" class="form-control" placeholder="Enter your full name" required />
+        </div>
+        <div class="mb-3">
+          <label class="form-label fw-bold">Your Email</label>
+          <input type="email" class="form-control" placeholder="Enter your email address" required />
+        </div>
+        <div class="mb-3">
+          <label class="form-label fw-bold">Message</label>
+          <textarea class="form-control" rows="4" placeholder="Write your message..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success w-100">Submit</button>
+      </form>
+    </section>
+    <section>
+      <h2 class="section-title">Follow Us on Social Media</h2>
+      <p>Stay updated with our latest posts and project activities.</p>
+      <div class="d-flex flex-wrap gap-3">
+        <a href="#" class="btn btn-outline-success">🌐 Official Website</a>
+        <a href="#" class="btn btn-outline-success">📘 Facebook</a>
+        <a href="#" class="btn btn-outline-success">📷 Instagram</a>
+        <a href="#" class="btn btn-outline-success">🐦 Twitter</a>
+      </div>
+    </section>
+  </div>
+</main>
+
+    <footer class="site-footer">
+        <small class="text-muted">
+            &copy; 2025 SDG 12 Responsible Consumption & Production | Group Project
+        </small>
+    </footer>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+</html>
