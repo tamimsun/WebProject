@@ -303,3 +303,80 @@ Tips and Solutions-
 </body>
 </html>
 Contact-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact | SDG 12 Project</title>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-success" href="index.html">
+                SDG 12: Responsible Consumption & Production
+            </a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainNavbar"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link " href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link " href="blogs.html">Blogs / Articles</a></li>
+                    <li class="nav-item"><a class="nav-link " href="tips.html">Tips / Solutions</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<header class="page-hero contact-hero">
+  <div class="container">
+    <h1 class="display-5 fw-bold">Contact</h1>
+    <p class="author-tag mt-2">Author: Nguyen Hai Anh</p>
+    <p class="lead mt-3">Reach out to our team for any questions or suggestions about SDG 12.</p>
+  </div>
+</header>
+<main class="py-5">
+  <div class="container">
+    <section class="mb-4">
+      <h2 class="section-title">Contact Information</h2>
+      <p class="mb-3">You can contact our group if you have feedback, ideas, or questions about responsible consumption and production.</p>
+      <ul class="list-group shadow-sm">
+        <li class="list-group-item"><strong>Email:</strong> info@sdg12project.com</li>
+        <li class="list-group-item"><strong>Phone:</strong> +353 000 123 4567</li>
+        <li class="list-group-item"><strong>Location:</strong> Dublin, Ireland</li>
+      </ul>
+    </section>
+    <section>
+      <p class="mb-2">You can also use our online form if you prefer to send us a written message.</p>
+      <a href="contact-form.html" class="btn btn-success">Go to Contact Form</a>
+    </section>
+  </div>
+</main>
+
+    <footer class="site-footer">
+        <small class="text-muted">
+            &copy; 2025 SDG 12 Responsible Consumption & Production | Group Project
+        </small>
+    </footer>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+</html>
