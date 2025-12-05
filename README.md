@@ -474,3 +474,36 @@ Contact Form-
 </body>
 </html>
 DESIGN-
+body {
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    background-color: #f5f7f5;
+    color: #212529;
+}
+.navbar-brand { font-size:1rem; font-weight:700; }
+.nav-link { font-weight:500; color:#145a32 !important; }
+.nav-link.active { color:#198754 !important; border-bottom:2px solid #198754; }
+.section-title { font-size:1.6rem; border-left:4px solid #198754; padding-left:10px; margin-bottom:1rem; font-weight:600; }
+.page-hero {
+    min-height:45vh; display:flex; align-items:center; text-align:center; color:#fff;
+    padding:40px 20px; background-size:cover; background-position:center; position:relative;
+}
+.page-hero::before {
+    content:""; position:absolute; inset:0;
+    background:linear-gradient(120deg, rgba(25,135,84,0.9), rgba(39,174,96,0.85)); opacity:0.9;
+}
+.page-hero > .container { position:relative; z-index:1; }
+.page-hero h1 { font-size:2.5rem; font-weight:700; }
+.page-hero p.lead { font-size:1.1rem; max-width:700px; margin:10px auto 0; }
+.author-tag { font-size:1.05rem; color:#e5ffe5; font-weight:500; }
+.home-hero { background-image:url("../images/hero_home.jpg"); }
+.blogs-hero { background-image:url("../images/hero_blogs.jpg"); }
+.tips-hero { background-image:url("../images/hero_tips.jpg"); }
+.contact-hero { background-image:url("../images/hero_contact.jpg"); }
+.blog-thumb { width:100%; height:180px; object-fit:cover; border-radius:8px; margin-bottom:10px; }
+.blog-card, .case-card, .solution-card, .tip-box {
+    border:1px solid #e3e7e3; border-radius:10px; background:#fff; padding:20px; transition:0.3s ease;
+}
+.blog-card:hover, .case-card:hover, .solution-card:hover, .tip-box:hover {
+    transform:translateY(-4px); box-shadow:0 4px 15px rgba(0,0,0,0.08);
+}
+.site-footer { background:#fff; border-top:1px solid #e3e7e3; padding:15px 0; text-align:center; margin-top:30px; }
